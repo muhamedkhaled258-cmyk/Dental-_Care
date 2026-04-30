@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dental Care – Your Smile Starts Here</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.0/css/all.min.css" />
+
+  <!-- AOS Animations -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+  <link rel="icon" href="./tooth.png" type="image/svg+xml" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body class="lang-en">
+
+  <!-- PAGE LOADER -->
+  <div class="page-loader" id="pageLoader">
+    <div class="loader-logo">
+      <i class="fas fa-tooth"></i>
+      <span>Dental Care</span>
+    </div>
+    <div class="loader-bar">
+      <div class="loader-bar-fill"></div>
+    </div>
+  </div>
+
+  <!-- ===========================
+       NAVBAR
+  =========================== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <i class="fas fa-tooth"></i>
+        <span>Dental Care</span>
+      </div>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero" data-en="Home" data-ar="الرئيسية">Home</a></li>
+        <li><a href="#about" data-en="About" data-ar="عن الطبيب">About</a></li>
+        <li><a href="#services" data-en="Services" data-ar="الخدمات">Services</a></li>
+        <li><a href="#before-after" data-en="Results" data-ar="النتائج">Results</a></li>
+        <li><a href="#videos" data-en="Videos" data-ar="فيديوهات">Videos</a></li>
+        <li><a href="#booking" data-en="Book Now" data-ar="احجز الآن" class="nav-cta">Book Now</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="lang-toggle" id="langToggle" aria-label="Toggle Language">
+          <span class="lang-en-label">AR</span>
+          <span class="lang-ar-label">EN</span>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===========================
+       HERO SECTION
+  =========================== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="https://southbradentondentist.com/wp-content/uploads/2025/11/2021-09-01.jpg" alt="Dental Care Clinic" class="hero-img" id="heroImg" />
+      <div class="hero-overlay"></div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-badge" data-aos="fade-down" data-aos-delay="100">
+        <i class="fas fa-star"></i>
+        <span data-en="Premium Dental Care" data-ar="رعاية أسنان متميزة">Premium Dental Care</span>
+      </div>
+
+      <h1 class="hero-clinic-name" data-aos="fade-up" data-aos-delay="200">
+        Dental Care
+      </h1>
+
+      <h2 class="hero-tagline" data-aos="fade-up" data-aos-delay="350">
+        <span data-en="Your Smile Starts Here" data-ar="ابتسامتك تبدأ من هنا">Your Smile Starts Here</span>
+      </h2>
+
+      <p class="hero-sub" data-aos="fade-up" data-aos-delay="500">
+        <span data-en="Advanced dental care with modern technology and expert hands" data-ar="رعاية أسنان متقدمة بأحدث التقنيات وعلى أيدي خبراء">Advanced dental care with modern technology and expert hands</span>
+      </p>
+
+      <div class="hero-buttons" data-aos="fade-up" data-aos-delay="650">
+        <a href="#booking" class="btn btn-primary">
+          <i class="fas fa-calendar-check"></i>
+          <span data-en="Book Now" data-ar="احجز الآن">Book Now</span>
+        </a>
+        <a href="tel:01145715573" class="btn btn-outline">
+          <i class="fas fa-phone"></i>
+          <span data-en="Call Us" data-ar="تواصل معنا">Call Us</span>
+        </a>
+        <a href="https://wa.me/201145715573" target="_blank" class="btn btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+          <span data-en="WhatsApp" data-ar="واتساب">WhatsApp</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===========================
+       ABOUT DOCTOR SECTION
+  =========================== -->
+  <section class="about section-pad" id="about">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag" data-en="About The Doctor" data-ar="عن الطبيب">About The Doctor</span>
+        <h2 data-en="Meet Your Dental Expert" data-ar="تعرف على طبيبك">Meet Your Dental Expert</h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-image-wrapper" data-aos="fade-right" data-aos-delay="200">
+          <div class="about-img-frame">
+            <img src="https://aldoctorz.com/wp-content/uploads/2024/03/%D9%86%D9%88%D8%B1-%D8%A7%D9%84%D8%AF%D9%8A%D9%86-%D9%85%D8%B5%D8%B7%D9%81%D9%89-1.jpg" alt="Dr. Nour Eldin Mustafa" class="about-img" id="drImg" />
+            <div class="about-img-badge">
+              <i class="fas fa-award"></i>
+              <div>
+                <strong>20+</strong>
+                <span data-en="Years" data-ar="سنة">Years</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-decorative-circle"></div>
+        </div>
+
+        <div class="about-content" data-aos="fade-left" data-aos-delay="300">
+          <h3 class="dr-name" data-en="Dr. Nour Eldin Mustafa" data-ar="د. نور الدين مصطفى">Dr. Nour Eldin Mustafa</h3>
+          <p class="dr-university" data-en="Faculty of Dentistry – Cairo University" data-ar="كلية طب الأسنان – جامعة القاهرة">Faculty of Dentistry – Cairo University</p>
+
+          <div class="about-desc">
+            <p data-en="With over 20 years of dedicated experience, Dr. Nour Eldin Mustafa has established himself as a leading dental expert in Egypt and the Arab world. Combining scientific excellence with an artistic eye, he transforms smiles and restores confidence." data-ar="بخبرة تمتد لأكثر من 20 عامًا، أثبت الدكتور نور الدين مصطفى نفسه بوصفه خبيرًا رائدًا في مجال طب الأسنان في مصر والعالم العربي، يجمع بين الإتقان العلمي والذوق الفني لتحويل الابتسامات وإعادة الثقة.">With over 20 years of dedicated experience, Dr. Nour Eldin Mustafa has established himself as a leading dental expert in Egypt and the Arab world. Combining scientific excellence with an artistic eye, he transforms smiles and restores confidence.</p>
+          </div>
+
+          <div class="specializations">
+            <h4 data-en="Specializations" data-ar="التخصصات">Specializations</h4>
+            <div class="spec-tags">
+              <span data-en="Cosmetic Dentistry" data-ar="تجميل الأسنان">Cosmetic Dentistry</span>
+              <span data-en="Implants" data-ar="زراعة الأسنان">Implants</span>
+              <span data-en="Hollywood Smile" data-ar="ابتسامة هوليود">Hollywood Smile</span>
+              <span data-en="Orthodontics" data-ar="تقويم">Orthodontics</span>
+              <span data-en="Root Canal" data-ar="علاج الجذور">Root Canal</span>
+              <span data-en="Gum Treatment" data-ar="اللثة">Gum Treatment</span>
+              <span data-en="Pediatric Dentistry" data-ar="أسنان الأطفال">Pediatric Dentistry</span>
+              <span data-en="Prosthetics" data-ar="التركيبات">Prosthetics</span>
+              <span data-en="Whitening" data-ar="التبييض">Whitening</span>
+              <span data-en="CAD/CAM & 3D" data-ar="CAD/CAM و 3D">CAD/CAM & 3D</span>
+            </div>
+          </div>
+
+          <div class="certifications">
+            <h4 data-en="Certifications & Memberships" data-ar="الشهادات والعضويات">Certifications & Memberships</h4>
+            <ul>
+              <li>
+                <i class="fas fa-certificate"></i>
+                <span data-en="Certified Trainer – International Digital Imaging Association (Berlin)" data-ar="مدرب معتمد – الجمعية الدولية للتصوير الرقمي (برلين)">Certified Trainer – International Digital Imaging Association (Berlin)</span>
+              </li>
+              <li>
+                <i class="fas fa-certificate"></i>
+                <span data-en="Member – American Academy of Cosmetic Dentistry" data-ar="عضو الجمعية الأمريكية لتجميل الأسنان">Member – American Academy of Cosmetic Dentistry</span>
+              </li>
+              <li>
+                <i class="fas fa-certificate"></i>
+                <span data-en="Member – International Congress of Oral Implantologists (NYU)" data-ar="عضو الكونجرس العالمي لزراعة الأسنان (جامعة نيويورك)">Member – International Congress of Oral Implantologists (NYU)</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===========================
+       SERVICES SECTION
+  =========================== -->
+  <section class="services section-pad" id="services">
+    <div class="services-bg-pattern"></div>
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag" data-en="What We Offer" data-ar="ما نقدمه">What We Offer</span>
+        <h2 data-en="Our Services" data-ar="خدماتنا">Our Services</h2>
+        <p class="section-subtitle" data-en="We provide complete dental solutions using the latest technologies" data-ar="نقدم جميع خدمات طب الأسنان باستخدام أحدث التقنيات">We provide complete dental solutions using the latest technologies</p>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="services-grid">
+
+        <!-- Service 1 -->
+        <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-img-wrap">
+            <img src="https://dentalcareegypt.com/wp-content/uploads/2023/02/icon3.png" alt="Dental Fillings" class="service-img" />
+            <div class="service-overlay">
+              <a href="#booking" class="service-cta">
+                <span data-en="Book Now" data-ar="احجز الآن">Book Now</span>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+          <div class="service-body">
+            <div class="service-icon"><i class="fas fa-tooth"></i></div>
+            <h3 data-en="Dental Fillings" data-ar="حشو الأسنان">Dental Fillings</h3>
+            <p data-en="Restore damaged teeth and bring back natural function and aesthetics." data-ar="ترميم الأسنان المتضررة وإعادة الشكل والوظيفة الطبيعية.">Restore damaged teeth and bring back natural function and aesthetics.</p>
+          </div>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-img-wrap">
+            <img src="https://dentalcareegypt.com/wp-content/uploads/2023/02/icon7.png" alt="Dental Fittings" class="service-img" />
+            <div class="service-overlay">
+              <a href="#booking" class="service-cta">
+                <span data-en="Book Now" data-ar="احجز الآن">Book Now</span>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+          <div class="service-body">
+            <div class="service-icon"><i class="fas fa-teeth"></i></div>
+            <h3 data-en="Dental Fittings" data-ar="تركيبات الأسنان">Dental Fittings</h3>
+            <p data-en="Custom solutions to restore missing teeth and enhance your smile." data-ar="حلول مخصصة لتعويض الأسنان المفقودة وتحسين الابتسامة.">Custom solutions to restore missing teeth and enhance your smile.</p>
+          </div>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="service-img-wrap">
+            <img src="https://dentalcareegypt.com/wp-content/uploads/2023/02/icon1.png" alt="Dental Implants" class="service-img" />
+            <div class="service-overlay">
+              <a href="#booking" class="service-cta">
+                <span data-en="Book Now" data-ar="احجز الآن">Book Now</span>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+          <div class="service-body">
+            <div class="service-icon"><i class="fas fa-magnet"></i></div>
+            <h3 data-en="Dental Implants" data-ar="زراعة الأسنان">Dental Implants</h3>
+            <p data-en="Permanent, natural-looking implants using advanced technology." data-ar="زراعة أسنان ثابتة بتقنيات حديثة تعطي مظهر طبيعي.">Permanent, natural-looking implants using advanced technology.</p>
+          </div>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="service-img-wrap">
+            <img src="https://dentalcareegypt.com/wp-content/uploads/2023/02/icon4.png" alt="Orthodontics" class="service-img" />
+            <div class="service-overlay">
+              <a href="#booking" class="service-cta">
+                <span data-en="Book Now" data-ar="احجز الآن">Book Now</span>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+          <div class="service-body">
+            <div class="service-icon"><i class="fas fa-align-center"></i></div>
+            <h3 data-en="Orthodontics" data-ar="تقويم الأسنان">Orthodontics</h3>
+            <p data-en="Straighten teeth and improve alignment for a perfect smile." data-ar="تقويم الأسنان لتحسين الشكل والمحاذاة.">Straighten teeth and improve alignment for a perfect smile.</p>
+          </div>
+        </div>
+
+        <!-- Service 5 -->
+        <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+          <div class="service-img-wrap">
+            <img src="https://dentalcareegypt.com/wp-content/uploads/2023/02/icon6.png" alt="Pediatric Dentistry" class="service-img" />
+            <div class="service-overlay">
+              <a href="#booking" class="service-cta">
+                <span data-en="Book Now" data-ar="احجز الآن">Book Now</span>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+          <div class="service-body">
+            <div class="service-icon"><i class="fas fa-child"></i></div>
+            <h3 data-en="Pediatric Dentistry" data-ar="طبيب أسنان الأطفال">Pediatric Dentistry</h3>
+            <p data-en="Gentle and comfortable dental care for children." data-ar="رعاية أسنان مريحة ومناسبة للأطفال.">Gentle and comfortable dental care for children.</p>
+          </div>
+        </div>
+
+        <!-- Service 6 -->
+        <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+          <div class="service-img-wrap">
+            <img src="https://dentalcareegypt.com/wp-content/uploads/2023/02/Root-canal-treatment-icon.png  " alt="Root Canal Treatment" class="service-img" />
+            <div class="service-overlay">
+              <a href="#booking" class="service-cta">
+                <span data-en="Book Now" data-ar="احجز الآن">Book Now</span>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+          <div class="service-body">
+            <div class="service-icon"><i class="fas fa-syringe"></i></div>
+            <h3 data-en="Root Canal Treatment" data-ar="علاج الجذور">Root Canal Treatment</h3>
+            <p data-en="Advanced root canal treatments with high precision." data-ar="علاج جذور دقيق بأحدث التقنيات.">Advanced root canal treatments with high precision.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===========================
+       BEFORE & AFTER SECTION
+  =========================== -->
+  <section class="before-after section-pad" id="before-after">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag" data-en="Transformations" data-ar="التحولات">Transformations</span>
+        <h2 data-en="Before &amp; After" data-ar="قبل وبعد">Before &amp; After</h2>
+        <p class="section-subtitle" data-en="Real results from real patients — witness the power of expert dental care" data-ar="نتائج حقيقية من مرضى حقيقيين — شاهد قوة رعاية الأسنان المتخصصة">Real results from real patients — witness the power of expert dental care</p>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="ba-slider-container" data-aos="zoom-in" data-aos-delay="200">
+        <div class="ba-slider" id="baSlider">
+
+          <!-- Slide 1 -->
+          <div class="ba-slide active">
+            <div class="ba-compare">
+              <div class="ba-img-wrapper">
+                <img src="https://celebritydentist.com/wp-content/uploads/2024/02/Porcelain-Veneers-Los-Angeles-Before-and-After-Veneers-1.jpg" alt="Before & After 1" class="ba-img" />
+              </div>
+              <div class="ba-label ba-before" data-en="Before" data-ar="قبل">Before</div>
+              <div class="ba-label ba-after" data-en="After" data-ar="بعد">After</div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="ba-slide">
+            <div class="ba-compare">
+              <div class="ba-img-wrapper">
+                <img src="https://celebritydentist.com/wp-content/uploads/2024/02/Full-Mouth-Reconstruction-Los-Angeles-1.jpg" alt="Before & After 2" class="ba-img" />
+              </div>
+              <div class="ba-label ba-before" data-en="Before" data-ar="قبل">Before</div>
+              <div class="ba-label ba-after" data-en="After" data-ar="بعد">After</div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="ba-slide">
+            <div class="ba-compare">
+              <div class="ba-img-wrapper">
+                <img src="https://celebritydentist.com/wp-content/uploads/2024/02/Before-After-Porcelain-Crowns-in-Los-Angeles.jpg" alt="Before & After 3" class="ba-img" />
+              </div>
+              <div class="ba-label ba-before" data-en="Before" data-ar="قبل">Before</div>
+              <div class="ba-label ba-after" data-en="After" data-ar="بعد">After</div>
+            </div>
+          </div>
+
+          <!-- Slide 4 -->
+          <div class="ba-slide">
+            <div class="ba-compare">
+              <div class="ba-img-wrapper">
+                <img src="https://celebritydentist.com/wp-content/uploads/2024/02/Cosmetic-Dentist-in-Los-Angeles-Cosmetic-Dentistry-Before-and-After-1.jpg" alt="Before & After 4" class="ba-img" />
+              </div>
+              <div class="ba-label ba-before" data-en="Before" data-ar="قبل">Before</div>
+              <div class="ba-label ba-after" data-en="After" data-ar="بعد">After</div>
+            </div>
+          </div>
+
+          <!-- Slide 5 -->
+          <div class="ba-slide">
+            <div class="ba-compare">
+              <div class="ba-img-wrapper">
+                <img src="https://celebritydentist.com/wp-content/uploads/2023/08/Smile-Makeover-with-3-Veneers-and-One-Crown.jpg" alt="Before & After 5" class="ba-img" />
+              </div>
+              <div class="ba-label ba-before" data-en="Before" data-ar="قبل">Before</div>
+              <div class="ba-label ba-after" data-en="After" data-ar="بعد">After</div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Navigation Arrows -->
+        <button class="ba-arrow ba-prev" id="baPrev" aria-label="Previous">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="ba-arrow ba-next" id="baNext" aria-label="Next">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+
+        <!-- Dots -->
+        <div class="ba-dots" id="baDots"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===========================
+       VIDEO REELS SECTION
+  =========================== -->
+  <section class="videos section-pad" id="videos">
+    <div class="videos-bg"></div>
+    <div class="container">
+      <div class="section-header light" data-aos="fade-up">
+        <span class="section-tag" data-en="Watch & Learn" data-ar="شاهد وتعلم">Watch & Learn</span>
+        <h2 data-en="Video Highlights" data-ar="فيديوهات">Video Highlights</h2>
+        <p class="section-subtitle" data-en="See our work in action — procedures, results, and patient journeys" data-ar="شاهد أعمالنا — الإجراءات والنتائج ورحلات المرضى">See our work in action — procedures, results, and patient journeys</p>
+        <div class="section-divider light-divider"></div>
+      </div>
+
+      <div class="videos-grid" data-aos="fade-up" data-aos-delay="200">
+
+        <div class="video-card">
+          <div class="video-frame">
+            <iframe
+              src="https://www.youtube.com/embed/sWQnFr9IRD4?autoplay=1&mute=1&loop=1&playlist=sWQnFr9IRD4&controls=1&rel=0"
+              title="Dental Care Video 1"
+              frameborder="0"
+              allow="autoplay; encrypted-media; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="video-info">
+            <h4 data-en="Smile Transformation" data-ar="تحول الابتسامة">Smile Transformation</h4>
+          </div>
+        </div>
+
+        <div class="video-card">
+  <div class="video-frame">
+    <iframe
+      src="https://www.youtube.com/embed/_eLVASIX3uk?autoplay=1&mute=1&loop=1&playlist=_eLVASIX3uk&controls=1&rel=0"
+      title="Dental Care Video 2"
+      frameborder="0"
+      allow="autoplay; encrypted-media; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+  </div>
+  <div class="video-info">
+    <h4 data-en="Expert Procedures" data-ar="إجراءات متخصصة">Expert Procedures</h4>
+  </div>
+</div>
+
+        <div class="video-card">
+          <div class="video-frame">
+            <iframe
+              src="https://www.youtube.com/embed/6u6AN2dp_8Q?autoplay=1&mute=1&loop=1&playlist=6u6AN2dp_8Q&controls=1&rel=0"
+              title="Dental Care Video 3"
+              frameborder="0"
+              allow="autoplay; encrypted-media; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="video-info">
+            <h4 data-en="Patient Journey" data-ar="رحلة المريض">Patient Journey</h4>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===========================
+       BOOKING FORM SECTION
+  =========================== -->
+  <section class="booking section-pad" id="booking">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag" data-en="Get Started" data-ar="ابدأ الآن">Get Started</span>
+        <h2 data-en="Book Your Appointment" data-ar="احجز موعدك">Book Your Appointment</h2>
+        <p class="section-subtitle" data-en="Fill in the details and we'll get back to you instantly via WhatsApp" data-ar="أدخل تفاصيلك وسنتواصل معك فورًا عبر واتساب">Fill in the details and we'll get back to you instantly via WhatsApp</p>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="booking-wrapper" data-aos="fade-up" data-aos-delay="200">
+        <div class="booking-form-card">
+          <div class="booking-icon-top">
+            <i class="fas fa-calendar-alt"></i>
+          </div>
+          <form id="bookingForm" onsubmit="submitBooking(event)">
+            <div class="form-group">
+              <label data-en="Full Name" data-ar="الاسم الكامل">Full Name</label>
+              <div class="input-icon-wrap">
+                <i class="fas fa-user"></i>
+                <input type="text" id="bookName" placeholder="Mohamed Khaled" data-en-placeholder="John Doe" data-ar-placeholder="محمد أحمد" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label data-en="Phone Number" data-ar="رقم الموبايل">Phone Number</label>
+              <div class="input-icon-wrap">
+                <i class="fas fa-phone"></i>
+                <input type="tel" id="bookPhone" placeholder="+20 1XX XXX XXXX" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label data-en="Service Required" data-ar="نوع الخدمة">Service Required</label>
+              <div class="input-icon-wrap">
+                <i class="fas fa-tooth"></i>
+                <select id="bookService" required>
+                  <option value="" data-en="-- Select Service --" data-ar="-- اختر الخدمة --">-- Select Service --</option>
+                  <option value="Dental Fillings / حشو الأسنان" data-en="Dental Fillings" data-ar="حشو الأسنان">Dental Fillings</option>
+                  <option value="Dental Fittings / تركيبات الأسنان" data-en="Dental Fittings" data-ar="تركيبات الأسنان">Dental Fittings</option>
+                  <option value="Dental Implants / زراعة الأسنان" data-en="Dental Implants" data-ar="زراعة الأسنان">Dental Implants</option>
+                  <option value="Orthodontics / تقويم الأسنان" data-en="Orthodontics" data-ar="تقويم الأسنان">Orthodontics</option>
+                  <option value="Pediatric Dentistry / طبيب أسنان الأطفال" data-en="Pediatric Dentistry" data-ar="طبيب أسنان الأطفال">Pediatric Dentistry</option>
+                  <option value="Root Canal Treatment / علاج الجذور" data-en="Root Canal Treatment" data-ar="علاج الجذور">Root Canal Treatment</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label data-en="Message (Optional)" data-ar="رسالة (اختياري)">Message (Optional)</label>
+              <div class="input-icon-wrap textarea-wrap">
+                <i class="fas fa-comment-alt"></i>
+                <textarea id="bookMessage" rows="4" placeholder="Any additional notes..." data-en-placeholder="Any additional notes..." data-ar-placeholder="أي ملاحظات إضافية..."></textarea>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-whatsapp btn-full">
+              <i class="fab fa-whatsapp"></i>
+              <span data-en="Book via WhatsApp" data-ar="احجز عبر واتساب">Book via WhatsApp</span>
+            </button>
+          </form>
+        </div>
+
+        <div class="booking-info-panel">
+          <div class="bip-card" data-aos="fade-left" data-aos-delay="300">
+            <i class="fas fa-clock"></i>
+            <div>
+              <h4 data-en="Working Hours" data-ar="ساعات العمل">Working Hours</h4>
+              <p data-en="Sat – Thu: 1:00 PM – 10:00 PM" data-ar="السبت – الخميس: 1م – 10م">Sat – Thu: 1:00 PM – 10:00 PM</p>
+              <p data-en="Friday: 1:00 PM – 6:00 PM" data-ar="الجمعة: 1م – 6م">Friday: 1:00 PM – 6:00 PM</p>
+            </div>
+          </div>
+          <div class="bip-card" data-aos="fade-left" data-aos-delay="400">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h4 data-en="Location" data-ar="الموقع">Location</h4>
+              <p data-en="56-58 Al Mahawlat Street, Al Haram, El Omraniya" data-ar="56-58 شارع المحولات، الهرم، العمرانية">56-58 Al Mahawlat Street, Al Haram, El Omraniya</p>
+            </div>
+          </div>
+          <div class="bip-card" data-aos="fade-left" data-aos-delay="500">
+            <i class="fas fa-phone-alt"></i>
+            <div>
+              <h4 data-en="Call Us" data-ar="اتصل بنا">Call Us</h4>
+              <p><a href="tel:01145715573">011 4571 5573</a></p>
+            </div>
+          </div>
+          <div class="bip-card" data-aos="fade-left" data-aos-delay="600">
+            <i class="fab fa-whatsapp"></i>
+            <div>
+              <h4>WhatsApp</h4>
+              <p><a href="https://wa.me/201145715573" target="_blank">+20 11 4571 5573</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===========================
+       LOCATION SECTION
+  =========================== -->
+  <section class="location section-pad" id="location">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag" data-en="Find Us" data-ar="جدنا">Find Us</span>
+        <h2 data-en="Our Location" data-ar="موقعنا">Our Location</h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="location-grid" data-aos="fade-up" data-aos-delay="200">
+        <div class="map-card">
+          <iframe
+            src="https://maps.google.com/maps?q=56+Al+Mahawlat+Street+Al+Haram+El+Omraniya+Cairo&output=embed&z=15"
+            width="100%"
+            height="100%"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Dental Care Location"
+          ></iframe>
+          <a href="https://maps.app.goo.gl/wmQcxaq7V7boH3577" target="_blank" class="map-open-btn">
+            <i class="fas fa-external-link-alt"></i>
+            <span data-en="Open in Maps" data-ar="فتح في الخرائط">Open in Maps</span>
+          </a>
+        </div>
+
+        <div class="location-details">
+          <div class="loc-item">
+            <div class="loc-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <h4 data-en="Address" data-ar="العنوان">Address</h4>
+              <p data-en="56-58 Al Mahawlat Street, Al Haram, El Omraniya, Giza" data-ar="56-58 شارع المحولات، الهرم، العمرانية، الجيزة">56-58 Al Mahawlat Street, Al Haram, El Omraniya, Giza</p>
+            </div>
+          </div>
+          <div class="loc-item">
+            <div class="loc-icon"><i class="fas fa-clock"></i></div>
+            <div>
+              <h4 data-en="Working Hours" data-ar="ساعات العمل">Working Hours</h4>
+              <p data-en="Saturday – Thursday: 1:00 PM – 10:00 PM" data-ar="السبت – الخميس: 1م – 10م">Saturday – Thursday: 1:00 PM – 10:00 PM</p>
+              <p data-en="Friday: 1:00 PM – 6:00 PM" data-ar="الجمعة: 1م – 6م">Friday: 1:00 PM – 6:00 PM</p>
+            </div>
+          </div>
+          <div class="loc-item">
+            <div class="loc-icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <h4 data-en="Phone" data-ar="الهاتف">Phone</h4>
+              <p><a href="tel:01145715573">011 4571 5573</a></p>
+            </div>
+          </div>
+          <a href="https://maps.app.goo.gl/wmQcxaq7V7boH3577" target="_blank" class="btn btn-primary mt-btn">
+            <i class="fas fa-directions"></i>
+            <span data-en="Get Directions" data-ar="احصل على الاتجاهات">Get Directions</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===========================
+       FOOTER
+  =========================== -->
+  <footer class="footer" id="footer">
+    <div class="footer-wave">
+      <svg viewBox="0 0 1440 80" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,40 C360,80 1080,0 1440,40 L1440,0 L0,0 Z" fill="#f0fcfc"/>
+      </svg>
+    </div>
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <i class="fas fa-tooth"></i>
+            <span>Dental Care</span>
+          </div>
+          <p data-en="Premium dental care with a personal touch. Your smile is our mission." data-ar="رعاية أسنان متميزة بلمسة شخصية. ابتسامتك هي مهمتنا.">Premium dental care with a personal touch. Your smile is our mission.</p>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/" target="_blank" rel="noreferrer noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://x.com/" target="_blank" rel="noreferrer noopener" aria-label="Twitter"><i class="fab fa-x"></i></a>
+            <a href="https://www.tiktok.com/explore" target="_blank" rel="noreferrer noopener" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+            <a href="https://www.youtube.com/" target="_blank" rel="noreferrer noopener" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.snapchat.com/" target="_blank" rel="noreferrer noopener" aria-label="Snapchat"><i class="fab fa-snapchat-ghost"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h4 data-en="Quick Links" data-ar="روابط سريعة">Quick Links</h4>
+          <ul>
+            <li><a href="#hero" data-en="Home" data-ar="الرئيسية">Home</a></li>
+            <li><a href="#about" data-en="About Doctor" data-ar="عن الطبيب">About Doctor</a></li>
+            <li><a href="#services" data-en="Services" data-ar="الخدمات">Services</a></li>
+            <li><a href="#before-after" data-en="Before & After" data-ar="قبل وبعد">Before & After</a></li>
+            <li><a href="#booking" data-en="Book Appointment" data-ar="احجز موعد">Book Appointment</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h4 data-en="Contact Us" data-ar="تواصل معنا">Contact Us</h4>
+          <ul>
+            <li>
+              <i class="fas fa-phone"></i>
+              <div>
+                <span data-en="Phone" data-ar="الهاتف">Phone</span>
+                <a href="tel:01145715573">011 4571 5573</a>
+              </div>
+            </li>
+            <li>
+              <i class="fab fa-whatsapp"></i>
+              <div>
+                <span>WhatsApp</span>
+                <a href="https://wa.me/201145715573" target="_blank">+20 11 4571 5573</a>
+              </div>
+            </li>
+            <li>
+              <i class="fas fa-envelope"></i>
+              <div>
+                <span data-en="Email" data-ar="البريد الإلكتروني">Email</span>
+                <a href="mailto:muhamedkhaled258@gmail.com">muhamedkhaled258@gmail.com</a>
+              </div>
+            </li>
+            <li>
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <span data-en="Address" data-ar="العنوان">Address</span>
+                <span data-en="56-58 Al Mahawlat St, Al Haram" data-ar="56-58 شارع المحولات، الهرم">56-58 Al Mahawlat St, Al Haram</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p data-en="© 2025 Dental Care. All rights reserved." data-ar="© 2025 Dental Care. جميع الحقوق محفوظة.">© 2025 Dental Care. All rights reserved.</p>
+        <p data-en="Designed with ❤️ for healthy smiles" data-ar="صُمم بـ ❤️ من أجل ابتسامات صحية">Designed with ❤️ for healthy smiles</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===========================
+       STICKY WHATSAPP BUTTON
+  =========================== -->
+  <a href="https://wa.me/201145715573" target="_blank" class="sticky-whatsapp" id="stickyWA" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+    <span class="wa-tooltip" data-en="Chat with us!" data-ar="تحدث معنا!">Chat with us!</span>
+    <span class="wa-pulse"></span>
+  </a>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>
