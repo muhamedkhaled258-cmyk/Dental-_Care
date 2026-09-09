@@ -78,7 +78,7 @@ production website than a simple portfolio template.
 
 <div align="center">
 
-<a href="YOUR_LIVE_DEMO_LINK">
+<a href="https://dental-care-x5ep.vercel.app/">
 
 <img
 src="https://img.shields.io/badge/OPEN%20LIVE%20DEMO-00b5c8?style=for-the-badge&logo=vercel&logoColor=white"
@@ -90,7 +90,6 @@ src="https://img.shields.io/badge/OPEN%20LIVE%20DEMO-00b5c8?style=for-the-badge&
 
 <br />
 
-> Replace `YOUR_LIVE_DEMO_LINK` with your deployed website URL.
 
 ---
 
